@@ -165,7 +165,7 @@ Bachelor’s degree holders consistently earn more than high school graduates ov
 This graph shows the ratio of bachelor’s earnings to high school earnings, representing the “college advantage.”
 
 ## 5. College Wage Premium ROI Over Time
-<img width="1000" height="500" alt="Big" src="https://github.com/user-attachments/assets/f1d39b45-af48-4b35-a7f4-1beedd9db0e9" />
+<img width="1000" height="500" alt="Updated_ROI" src="https://github.com/user-attachments/assets/c29325cf-2985-4cc3-8c7d-4a440e52c366" />
 
 This graph shows that over the years, as tuition went up over the years, the annual wage premium remained stagnant showing a decrease of return on investment in a Bachelor's degree.
 
