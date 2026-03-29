@@ -17,9 +17,9 @@ pip install pandas matplotlib openpyxl
 
 Project Structure
 We use three separate Python files for a clean workflow:
-setup.py → Fetches datasets from the web
-cleanup.py → Cleans and processes the data
-visualization.py → Creates graphs and analysis
+- setup.py → Fetches datasets from the web
+- cleanup.py → Cleans and processes the data
+- visualization.py → Creates graphs and analysis
 
 
 We use Python’s built-in urllib library to download datasets directly from online sources.
@@ -141,5 +141,30 @@ This script:
 
 # Visualizations
 
+## 1. Tuition Trends
+![Tuition Trends](Images/tuition.png)
+
+This graph shows how average college tuition has increased steadily over time.
+
+---
+
+## 2. Financial Aid vs Loans
+![Aid vs Loans](Images/aid_loans.png)
+
+While financial aid has increased, student loans have also risen significantly, indicating growing reliance on borrowing.
+
+---
+
+## 3. Earnings Comparison
+![Earnings](Images/ba_hs_earnings.png)
+
+Bachelor’s degree holders consistently earn more than high school graduates over time.
+
+---
+
+## 4. College Wage Premium
+![Wage Premium](Images/wage_premium.png)
+
+This graph shows the ratio of bachelor’s earnings to high school earnings, representing the “college advantage.”
 
 # Trends
