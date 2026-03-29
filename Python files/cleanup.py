@@ -3,14 +3,14 @@ import openpyxl as openpyxl
 
 
 
-file_path = "tuitons.xlsx"
+file_path = "PulledData/tuitons.xlsx"
 tuition_df = pd.read_excel(file_path, sheet_name="Table CP-2")
 tuition_df_clean = tuition_df.iloc[31:56, [0,3]]
 tuition_df_clean.columns = ["year", "tuition"]
 
 
 
-file_path = "loans_and_grants.xlsx"
+file_path = "PulledData/loans_and_grants.xlsx"
 aid_loan_df = pd.read_excel(file_path, sheet_name="Table SA-3")
 aid_df_clean = aid_loan_df.iloc[66:91, [0,5,7]]
 aid_df_clean.columns = ["year", "aid", "loan"]
@@ -19,12 +19,12 @@ aid_df_clean["loan"] = aid_df_clean["loan"].round(0).astype(int)
 
 
 
-file_path = "hs_earnings.csv"
+file_path = "PulledData/hs_earnings.csv"
 hs_earnings_df = pd.read_csv(file_path)
 hs_earnings_df = hs_earnings_df.iloc[:100, [0,1]]
 
 
-file_path = "ba_earnings.csv"
+file_path = "PulledData/ba_earnings.csv"
 ba_earnings_df = pd.read_csv(file_path)
 ba_earnings_df = ba_earnings_df.iloc[:100, [0,1]]
 
@@ -46,7 +46,7 @@ hs_annual.columns = ["year", "hs_earnings"]
 ba_annual.columns = ["year", "ba_earnings"]
 
 # save to csv
-hs_annual.to_csv("hs_earnings_clean.csv", index=False)
-ba_annual.to_csv("ba_earnings_clean.csv", index=False)
-tuition_annual.to_csv("tuition_clean.csv", index=False)
-aid_annual.to_csv("aid_and_loans_clean.csv", index=False)
+hs_annual.to_csv("CleanedUpData/hs_earnings_clean.csv", index=False)
+ba_annual.to_csv("CleanedUpData/ba_earnings_clean.csv", index=False)
+tuition_annual.to_csv("CleanedUpData/tuition_clean.csv", index=False)
+aid_annual.to_csv("CleanedUpData/aid_and_loans_clean.csv", index=False)
