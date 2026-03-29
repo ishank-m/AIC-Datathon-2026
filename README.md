@@ -148,7 +148,7 @@ This graph shows how average college tuition has increased steadily over time.
 ## 2. Financial Aid vs Loans
 ![Aid vs Loans](Images/aid_loan.png)
 
-While financial aid has increased, student loans have also risen significantly, indicating growing reliance on borrowing.
+While financial aid has increased, student loans have also fallen significantly, indicating falling reliance on borrowing.
 
 ---
 
