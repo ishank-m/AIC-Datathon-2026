@@ -176,3 +176,15 @@ This is a visualization of all datasets (tuition costs, wage premium, student lo
 
 # Trends
 While tuition rose 82% since 2000, financial aid kept pace and student borrowing declined. However, the wage premium — the salary advantage of a bachelor's degree over a high school diploma — remained essentially flat, suggesting the financial return on a college degree has weakened relative to its cost.
+
+# Limitations
+Comparison of groups: More people attend college now than in in the 2000s. Therefore, the “high school only” group today is smaller, different population than it was before – making wage comparisons less clean over time.
+Correlation ≠ Causation: Just because tuition rose while wage advantage remained flat doesn’t mean one caused the other; other factors like technology, globalization, or the 2008 recession could affect the wages.
+Major matters: Different majors lead to very different salaries (e.g. a computer science graduate and an art history graduate pay the same tuition but earn very different salaries).
+
+
+
+
+
+
+
